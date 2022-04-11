@@ -443,7 +443,20 @@ url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 
 /*미디어 쿼리*/
 
-@media screen and (max-width: 768px){
+@media (max-width: 768px){
+    @import
+url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url("font/Gotham-Bold.otf");
+}
+
+@font-face {
+    font-family: 'RockwellStd';
+    src:url("font/RockwellStd.otf");
+}
+
 * {
     margin:0;
     padding:0;
@@ -463,7 +476,6 @@ url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 }
 
 .intro_bg .header{
-    flex-direction: column;
     position: sticky;
     top:20px;
     display: flex;
@@ -475,7 +487,7 @@ url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 }
 .nav {
     text-align: right;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 .intro_bg .nav ul li{
     display: inline-block;
@@ -489,7 +501,7 @@ url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
     padding-right:17px;
     border-radius: 20px;
     border-width:1px;
-    font-size:10px;
+    font-size:20px;
     font-weight:bold;
     position:relative;
     top:-8px;
@@ -510,6 +522,7 @@ url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 }
 .intro_bg .nav {
     margin-right: -20px;
+    margin-top: 70px;
 }
 
 .GUIDE {
@@ -520,7 +533,7 @@ url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 }
 
 .intro_title{
-    margin-top:200px;
+    margin-top:350px;
     padding-left:7%;
     padding-bottom: 3%;
 }
@@ -566,10 +579,10 @@ url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 }
 
 .left_title{
-
+    height: 151px;
     font-weight: 800;
     font-family: 'NanumSquare';
-
+    margin-left:40px;
 }
 
 .tosc_side_logo_1 {
