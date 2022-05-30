@@ -50,8 +50,8 @@ a{
 }
   
 .navbar_menu li:hover {
-  background-color: blueviolet;
-  border-radius: 10px;
+  background-color: rgb(62, 169, 144);
+  border-radius: 20px;
 }
 
 .GUIDE {
